@@ -23,8 +23,8 @@ const char* ssid     = STASSID;
 const char* password = STAPSK;
 
 /* Set these to your desired settings. Instead of "." use "," for address */
-IPAddress myip(x,x,x,x); /*your train IP, example: (192.168.1.100)*/
-IPAddress host(x,x,x,x);   /*your router IP, example: (192.168.1.1)*/
+IPAddress myip(x,x,x,x); /*your train IP, example: (192,168,1,100)*/
+IPAddress host(x,x,x,x);   /*your router IP, example: (192,168,1,1)*/
 IPAddress mask(255, 255, 255, 0); /*example: (255, 255, 255, 0)*/
 
 const uint16_t port = 80;
